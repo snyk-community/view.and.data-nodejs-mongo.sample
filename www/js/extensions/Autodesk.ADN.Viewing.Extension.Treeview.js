@@ -43,6 +43,50 @@ Autodesk.ADN.Viewing.Extension.Treeview = function (viewer, options) {
         return true;
     };
 
+    ///////////////////////////////////////////////////////////////////
+    // Recursively builds the model tree
+    //
+    ///////////////////////////////////////////////////////////////////
+    function buildModelTree(model){
+
+        //builds model tree recursively
+        function _buildModelTreeRec(node){
+
+            instanceTree.enumNodeChildren(node.dbId,
+              function(childId) {
+
+                  node.children = node.children || [];
+
+                  var childNode = {
+                      dbId: childId,
+                      name: instanceTree.getNodeName(childId)
+                  }
+
+                  node.children.push(childNode);
+
+                  _buildModelTreeRec(childNode);
+              });
+        }
+
+        //get model instance tree and root component
+        var instanceTree = model.getData().instanceTree;
+
+        var rootId = instanceTree.getRootId();
+
+        var rootNode = {
+            dbId: rootId,
+            name: instanceTree.getNodeName(rootId)
+        }
+
+        _buildModelTreeRec(rootNode);
+
+        return rootNode;
+    }
+
+    ///////////////////////////////////////////////////////////////////
+    //
+    //
+    ///////////////////////////////////////////////////////////////////
     function initializeTree(viewer) {
 
         var tree = $("#tree").jstree({
@@ -57,19 +101,17 @@ Autodesk.ADN.Viewing.Extension.Treeview = function (viewer, options) {
 
                 var treeRef = $('#tree').jstree(true);
 
-                viewer.getObjectTree(function (result) {
+                var rootComponent = buildModelTree(
+                  viewer.model);
 
-                    var rootComponent = result.root;
+                var rootNode = createNode(
+                  treeRef,
+                  '#',
+                  rootComponent);
 
-                    var rootNode = createNode(
-                        treeRef,
-                        '#',
-                        rootComponent);
+                buildTreeRec(treeRef, rootNode, rootComponent);
 
-                    buildTreeRec(treeRef, rootNode, rootComponent);
-
-                    $('#tree').jstree("open_node", rootNode);
-                });
+                $('#tree').jstree("open_node", rootNode);
             });
 
         tree.on('before.jstree',

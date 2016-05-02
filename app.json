@@ -1,0 +1,7 @@
+{
+  "name": "view.and.data-nodejs-mongo",
+  "description": "Fullstack integration sample with node.js, mongoDB and View & Data API",
+  "repository": "https://github.com/Developer-Autodesk/integration-mongo-view.and.data.api",
+  "logo": "http://viewer.autodesk.io/node/gallery/img/favicon.png",
+  "keywords": ["node", "express", "mongoDB", "view&data"]
+}

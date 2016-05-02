@@ -27,8 +27,6 @@ require("./services/view.and.data-service");
 require("./ui/dialogs/navbar/navbar");
 require("./ui/dialogs/about/about");
 
-var configClient = require("./config-client");
-
 ///////////////////////////////////////////////////////////////////////////////
 //
 //
@@ -91,8 +89,7 @@ angular.module('Autodesk.ADN.Mongo.Main',
   .config(['$routeProvider', 'ViewAndDataProvider',
       function ($routeProvider, ViewAndDataProvider) {
 
-          ViewAndDataProvider.setTokenUrl(
-            configClient.ApiURL + '/token');
+          ViewAndDataProvider.setTokenUrl('/api/token');
 
           $routeProvider.otherwise({redirectTo: '/viewer'});
       }])

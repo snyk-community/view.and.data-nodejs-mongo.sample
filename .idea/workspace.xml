@@ -2,76 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04e853f4-4705-4984-b35c-ed92325eb2f4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/views/viewer/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/dialogs/navbar/navbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/dialogs/about/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/dev/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/raphael-min-1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/views/viewer/extensions/Autodesk.ADN.Viewing.Extension.PieChart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/credentials-stg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/views/viewer/viewer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/dev/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/credentials.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config-server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/views/viewer/viewer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/dialogs/navbar/navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/directives/adn-viewer-div.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/views/viewer/extensions/Autodesk.ADN.Viewing.Extension.MongoDbPanelExtension.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/dev/amdDev.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/dialogs/about/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/js/directives/adn-spinning-img.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.css" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/button.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/button.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-route/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/tooltip.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/tooltip.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/config-client.js" afterPath="$PROJECT_DIR$/www/js/config-client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/raphael-min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/raphael/raphael-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui/test/lib/jquery/jquery-ui-1.8.18.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui/test/lib/jquery/jquery-ui-1.8.18.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-route/package.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-route/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/modal.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/modal.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-material-icons/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-material-icons/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-route/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-route/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/angular-strap.tpl.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/angular-strap.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-layout/ui-layout.css" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-layout/ui-layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-route/angular-route.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-bootstrap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-route/bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-route/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-layout/ui-layout.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-layout/ui-layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/scrollspy.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/scrollspy.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui/build/angular-ui.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui/build/angular-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/tab.tpl.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/tab.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/collapse.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/collapse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.min.css" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.min.js.gzip" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/credentials-stg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/credentials.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/routes/view-and-data-client.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web.config" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js" afterPath="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js" afterPath="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Mongo.iml" afterPath="$PROJECT_DIR$/.idea/Mongo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-route/README.md" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-route/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/navbar.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/navbar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/angular-strap.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/angular-strap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-layout/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-layout/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/tab.tpl.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/modules/tab.tpl.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/angular-strap.min.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/dist/angular-strap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/raphael/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/.bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-strap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/raphael/raphael.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/raphael/raphael.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.js" afterPath="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/ui-grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/config-client.js" afterPath="$PROJECT_DIR$/www/js/config-client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config-server.js" afterPath="$PROJECT_DIR$/config/config-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api/token.js" afterPath="$PROJECT_DIR$/routes/api/token.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js" afterPath="$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="integration-mongo-view.and.data.api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,75 +44,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="viewer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js">
+      <file leaf-file-name="config-view-and-data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/config-view-and-data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="7050" max-vertical-offset="13935">
-              <caret line="470" column="0" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09630819" vertical-offset="0" max-vertical-offset="623">
+            <state vertical-scroll-proportion="0.08438819" vertical-offset="0" max-vertical-offset="711">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="credentials-stg.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/credentials-stg.js">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Autodesk.ADN.Viewing.Extension.CustomPropertyPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.CustomPropertyPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="6120">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="35" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7083334" vertical-offset="79" max-vertical-offset="1170">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,28 +77,68 @@
       <file leaf-file-name="config-server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config-server.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heroku.config.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heroku.config.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6818182" vertical-offset="0" max-vertical-offset="180">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="credentials.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/credentials.js">
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Autodesk.ADN.Viewing.Extension.Chart.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js">
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="7650">
-              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="600">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/App/config/production.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="495">
+              <caret line="19" column="34" selection-start-line="15" selection-start-column="3" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -216,8 +161,6 @@
         <option value="$PROJECT_DIR$/www/views/viewer/extensions/Autodesk.ADN.Viewing.Extension.PieChart.js" />
         <option value="$PROJECT_DIR$/www/js/directives/adn-viewer-div.js" />
         <option value="$PROJECT_DIR$/www/views/viewer/viewer.js" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/routes/api/token.js" />
         <option value="/usr/local/apache-tomcat-7.0.63/conf/tomcat-users.xml" />
         <option value="$PROJECT_DIR$/demo.java" />
         <option value="$PROJECT_DIR$/routes/api/cola.html" />
@@ -225,34 +168,39 @@
         <option value="$USER_HOME$/Desktop/cola/cola.html" />
         <option value="$PROJECT_DIR$/www/lib/bower_components/adn-view-and-data-toolkit/dist/js/viewer.js" />
         <option value="$PROJECT_DIR$/www/lib/bower_components/angular-ui-grid/.bower.json" />
-        <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js" />
         <option value="$PROJECT_DIR$/../dotty-gallery/uploads/extensions/Dotty.Viewing.Extension.Collaboration/Dotty.Viewing.Extension.Collaboration.js" />
         <option value="$PROJECT_DIR$/www/js/ui/dialogs/about/about.html" />
         <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.MongoDbPanelExtension.js" />
-        <option value="$PROJECT_DIR$/routes/api/models.js" />
         <option value="$PROJECT_DIR$/www/js/ui/views/viewer/viewer.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/www/js/ui/dialogs/navbar/navbar.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
         <option value="$PROJECT_DIR$/routes/api/materials.js" />
         <option value="$PROJECT_DIR$/data/models.json" />
         <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.CustomPropertyPanel.js" />
-        <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js" />
         <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.PieChart.js" />
-        <option value="$PROJECT_DIR$/www/js/config-client.js" />
         <option value="$PROJECT_DIR$/www/css/app.css" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/www/build/app.min.js" />
         <option value="$PROJECT_DIR$/../dotty-gallery/www/js/services/appState-service.js" />
         <option value="$PROJECT_DIR$/www/js/services/appState-service.js" />
         <option value="$PROJECT_DIR$/www/js/ui/dialogs/navbar/navbar.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js" />
-        <option value="$PROJECT_DIR$/config/config-server.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/config/credentials-stg.js" />
         <option value="$PROJECT_DIR$/config/credentials.js" />
+        <option value="$PROJECT_DIR$/config/credentials-stg.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/www/js/config-client.js" />
+        <option value="$PROJECT_DIR$/config/config-view-and-data.js" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/routes/api/token.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/routes/api/models.js" />
+        <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js" />
+        <option value="$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js" />
+        <option value="$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config/config-server.js" />
+        <option value="$PROJECT_DIR$/heroku.config.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -261,7 +209,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -272,7 +220,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -288,7 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -321,22 +268,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mongo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,11 +283,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/js/services" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/www/js/services" />
       <recent name="$PROJECT_DIR$/www/lib/bower_components/g.raphael" />
       <recent name="$PROJECT_DIR$/www/lib/bower_components/raphael" />
-      <recent name="$PROJECT_DIR$/www/resources/img" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.mac">
@@ -436,7 +370,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="873" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -444,23 +378,24 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1596424" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23255815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33756167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3461047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46232438" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33077905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27713922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.118773945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -480,29 +415,29 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/api/materials.js</url>
-          <line>34</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/api/token.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="79" max-vertical-offset="1170">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/view-and-data-client.js">
+    <entry file="file://$PROJECT_DIR$/config/config-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="11850">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="585">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="7650">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -518,24 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/uploads/extensions/Dotty.Viewing.Extension.Collaboration/Dotty.Viewing.Extension.Collaboration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1986755" vertical-offset="3585" max-vertical-offset="22095">
-          <caret line="253" column="51" selection-start-line="253" selection-start-column="51" selection-end-line="253" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/ui/dialogs/about/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.791667" vertical-offset="281" max-vertical-offset="855">
           <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/config/config-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="690">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -560,123 +481,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/www/js/ui/views/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2895">
-          <caret line="99" column="64" selection-start-line="99" selection-start-column="64" selection-end-line="99" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/uploads/extensions/Dotty.Viewing.Extension.MetadataManager/Dotty.Viewing.Extension.MetadataManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.153846" vertical-offset="6307" max-vertical-offset="10695">
-          <caret line="449" column="60" selection-start-line="449" selection-start-column="14" selection-end-line="449" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2250">
-          <caret line="150" column="2" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/www/js/ui/views/viewer/viewer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="960">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/routes/api/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2835" max-vertical-offset="4125">
-          <caret line="189" column="0" selection-start-line="183" selection-start-column="9" selection-end-line="189" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/async/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1890">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="570">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/www/js/ui/views/home/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.576923" vertical-offset="1207" max-vertical-offset="3525">
-          <caret line="120" column="34" selection-start-line="110" selection-start-column="14" selection-end-line="110" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/www/js/ui/views/viewer/viewer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.961538" vertical-offset="2377" max-vertical-offset="7860">
-          <caret line="190" column="13" selection-start-line="187" selection-start-column="9" selection-end-line="190" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/www/js/gallery.app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2335" max-vertical-offset="3000">
-          <caret line="193" column="7" selection-start-line="190" selection-start-column="3" selection-end-line="193" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api/materials.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2850">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/models.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.458334" vertical-offset="58" max-vertical-offset="810">
           <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.461538" vertical-offset="3729" max-vertical-offset="4275">
-          <caret line="281" column="47" selection-start-line="281" selection-start-column="41" selection-end-line="281" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/viewer3D.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="941385" max-vertical-offset="1116120">
-          <caret line="62759" column="47" selection-start-line="62759" selection-start-column="30" selection-end-line="62759" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.PieChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2353" max-vertical-offset="4230">
-          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/config-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -701,50 +509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/ui/views/viewer/viewer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1755">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services/view.and.data-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/ui/dialogs/about/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="23" column="48" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dotty-gallery/www/js/services/appState-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services/appState-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,97 +520,284 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="417" max-vertical-offset="1830">
           <caret line="57" column="59" selection-start-line="57" selection-start-column="57" selection-end-line="57" selection-end-column="59" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/materials.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2071" max-vertical-offset="2850">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/appState-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1650">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/App/src/api/services/lmvSvc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/App/src/api/endpoints/lmv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="645">
+          <caret line="24" column="29" selection-start-line="22" selection-start-column="5" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="195" max-vertical-offset="1140">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="730" max-vertical-offset="1485">
-          <caret line="93" column="39" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../view.and.data-boilerplate/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="735">
+          <caret line="25" column="24" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/App/src/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="27.92" vertical-offset="3683" max-vertical-offset="5670">
+          <caret line="199" column="41" selection-start-line="199" selection-start-column="10" selection-end-line="199" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.538462" vertical-offset="393" max-vertical-offset="1020">
+          <caret line="41" column="65" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="4275">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/config-client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services/view.and.data-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/Extensions/src/utils/ViewerToolkit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2370" max-vertical-offset="8370">
+          <caret line="180" column="30" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/Extensions/src/Autodesk.ADN.Viewing.Extension.ModelStructure/Autodesk.ADN.Viewing.Extension.ModelStructure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1262" max-vertical-offset="2700">
+          <caret line="99" column="1" selection-start-line="99" selection-start-column="1" selection-end-line="137" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.CustomPropertyPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="6120">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="233" max-vertical-offset="5880">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Treeview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.4615383" vertical-offset="938" max-vertical-offset="3120">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.PieChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3428" max-vertical-offset="3990">
+          <caret line="223" column="17" selection-start-line="223" selection-start-column="15" selection-end-line="223" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/extensions/Autodesk.ADN.Viewing.Extension.Chart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="7650">
-          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="5693" max-vertical-offset="8460">
+          <caret line="414" column="3" selection-start-line="414" selection-start-column="3" selection-end-line="414" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/ui/views/viewer/viewer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1755">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js">
+    <entry file="file://$PROJECT_DIR$/www/lib/bower_components/view-and-data-toolkit/dist/js/view-and-data-client-v1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7050" max-vertical-offset="13935">
-          <caret line="470" column="0" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11700">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/bower_components/view-and-data-toolkit/dist/js/viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4935" max-vertical-offset="5430">
+          <caret line="42" column="73" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="73" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/js/directives/viewer-directive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7083334" vertical-offset="79" max-vertical-offset="1170">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1950" max-vertical-offset="2865">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1439561281000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1439561281000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/ui/views/viewer/viewer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="14265">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../adn/LMV/lmv-react/App/config/production.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+          <caret line="19" column="34" selection-start-line="15" selection-start-column="3" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125" vertical-offset="0" max-vertical-offset="525">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="600">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-view-and-data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/credentials.js">
+    <entry file="file://$PROJECT_DIR$/heroku.config.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/credentials-stg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="755">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09630819" vertical-offset="0" max-vertical-offset="623">
+        <state vertical-scroll-proportion="-0.6818182" vertical-offset="0" max-vertical-offset="180">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08438819" vertical-offset="0" max-vertical-offset="711">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>

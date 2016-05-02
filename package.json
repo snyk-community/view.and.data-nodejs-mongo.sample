@@ -28,6 +28,7 @@
     "serve-favicon":        "2.2.0",
     "webpack":              "1.8.11",
     "vinyl-paths":          "1.0.0",
-    "lodash":               "3.9.3"
+    "lodash":               "3.9.3",
+    "view-and-data":        "1.0.7"
   }
 }

@@ -68,7 +68,9 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
   ['$scope', '$http', 'uiGridConstants', 'ViewAndData', function(
     $scope, $http, uiGridConstants, ViewAndData) {
 
-    $scope.tokenUrl = configClient.ApiURL + '/token';
+    $scope.tokenUrl = window.location.protocol + '//' +
+      window.location.host + '/api/token';
+
 
     String.prototype.replaceAll = function (find, replace) {
       var str = this;
@@ -108,7 +110,6 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
       $scope.viewerContainerConfig = {
 
         environment: 'AutodeskProduction'
-        //environment: 'AutodeskStaging'
       }
 
       $scope.viewerConfig = {
@@ -302,7 +303,7 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
       }
       else {
 
-        $http.get(configClient.host +
+        $http.get(
         '/api/models/' + $scope.selectedModel._id +
         '/component/' + dbId + '/material').then(function (response) {
 
@@ -340,6 +341,46 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
       this.getProperties(dbId, _cb);
     };
 
+    ///////////////////////////////////////////////////////////////////
+    // Recursively builds the model tree
+    //
+    ///////////////////////////////////////////////////////////////////
+    function buildModelTree(model){
+
+      //builds model tree recursively
+      function _buildModelTreeRec(node){
+
+        instanceTree.enumNodeChildren(node.dbId,
+          function(childId) {
+
+            node.children = node.children || [];
+
+            var childNode = {
+              dbId: childId,
+              name: instanceTree.getNodeName(childId)
+            }
+
+            node.children.push(childNode);
+
+            _buildModelTreeRec(childNode);
+          });
+      }
+
+      //get model instance tree and root component
+      var instanceTree = model.getData().instanceTree;
+
+      var rootId = instanceTree.getRootId();
+
+      var rootNode = {
+        dbId: rootId,
+        name: instanceTree.getNodeName(rootId)
+      }
+
+      _buildModelTreeRec(rootNode);
+
+      return rootNode;
+    }
+
     ///////////////////////////////////////////////////////////////////////////
     // Get all leaf components
     //
@@ -374,12 +415,11 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
           return components;
         }
 
-        this.getObjectTree(function (result) {
+        var root = buildModelTree(this.model);
 
-          var allLeafComponents = getLeafComponentsRec(result.root);
+        var allLeafComponents = getLeafComponentsRec(root);
 
-          callback(allLeafComponents);
-        });
+        callback(allLeafComponents);
       }
 
     ///////////////////////////////////////////////////////////////////
@@ -465,7 +505,7 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
 
         $scope.viewer.loadExtension(
           'Autodesk.ADN.Viewing.Extension.CustomPropertyPanel', {
-            apiUrl: configClient.host + '/api',
+            apiUrl: '/api',
             menuItems: buildPropertyPanelMenuItems()
           });
 
@@ -522,8 +562,7 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
                 updateGrid({inProgress: false});
               });
 
-            $http.post(configClient.host +
-            '/api/models/' + $scope.selectedModel._id +
+            $http.post('/api/models/' + $scope.selectedModel._id +
             '/component/' + dbId + '/material', {name: newMaterial}).then(
               function (response) {
 
@@ -581,8 +620,7 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
                   _materialMap[materialName].components.push(
                     component.dbId);
 
-                  var getUrl = configClient.ApiURL +
-                    '/materials/byName/' +
+                  var getUrl = '/api/materials/byName/' +
                     materialName;
 
                   $http.get(getUrl).
@@ -642,7 +680,7 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
         //add material to db
         if(!_materialMap[name].material) {
 
-          var url = configClient.ApiURL + '/materials/';
+          var url = '/api/materials/';
 
           var newMaterial = {
             name: name,
@@ -834,7 +872,7 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
     ///////////////////////////////////////////////////////////////////
     $scope.onViewerFactoryInitialized = function (factory) {
 
-      $http.get(configClient.host + '/api/models').then(
+      $http.get('/api/models').then(
 
         function(response) {
 
@@ -872,13 +910,13 @@ angular.module('Autodesk.ADN.Mongo.View.Viewer',
 
       $scope.viewer = viewer;
 
-      viewer.addEventListener(
-        Autodesk.Viewing.GEOMETRY_LOADED_EVENT,
-        onGeometryLoaded);
+      //viewer.addEventListener(
+      //  Autodesk.Viewing.GEOMETRY_LOADED_EVENT,
+      //  onGeometryLoaded);
 
       viewer.addEventListener(
         Autodesk.Viewing.OBJECT_TREE_CREATED_EVENT,
-        onObjectTreeCreated);
+        onGeometryLoaded);
 
       if (!$scope.selectedModel.initialized) {
 

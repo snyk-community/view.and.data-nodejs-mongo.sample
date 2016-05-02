@@ -15,23 +15,18 @@
 // DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
 // UNINTERRUPTED OR ERROR FREE.
 /////////////////////////////////////////////////////////////////////////////////
-var credentials = require('./config/credentials');
-var ViewAndDataClient = require('./routes/view-and-data-client');
 
-var viewAndDataClient = new ViewAndDataClient(
-  credentials.BaseUrl,
-  credentials.ConsumerKey,
-  credentials.SecretKey);
-
+var lmvConfig = require('./config/config-view-and-data');
 var dbConnector = require('./routes/dbConnector');
 var config = require('./config/config-server');
 var bodyParser = require('body-parser');
 var favicon = require('serve-favicon');
+var Lmv = require('view-and-data');
 var express = require('express');
 
 var app = express();
 
-app.use(config.host, express.static(__dirname + '/www'));
+app.use(express.static(__dirname + '/www'));
 app.use(favicon(__dirname + '/www/resources/img/favicon.ico'));
 
 app.use(bodyParser.urlencoded({ extended: false, limit: '500mb' }));
@@ -43,18 +38,20 @@ connector.initializeDb(
 
   function(db){
 
-      app.use(config.host + '/api/materials', require('./routes/api/materials')(db));
-      app.use(config.host + '/api/models', require('./routes/api/models')(db));
-
-      viewAndDataClient.onInitialized(function() {
-
-          app.use(config.host + '/api/token', require('./routes/api/token')(viewAndDataClient));
-      });
+      app.use('/api/materials', require('./routes/api/materials')(db));
+      app.use('/api/models', require('./routes/api/models')(db));
 
   }, function(error) {
 
       console.log(error);
   });
+
+var Lmv = new Lmv(lmvConfig);
+
+Lmv.initialize().then(function(){
+
+  app.use('/api/token', require('./routes/api/token')(Lmv));
+});
 
 app.set('port', process.env.PORT || 3000);
 

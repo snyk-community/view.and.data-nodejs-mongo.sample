@@ -17,7 +17,7 @@
 /////////////////////////////////////////////////////////////////////////////////
 var express = require('express');
 
-module.exports = function(viewAndDataClient) {
+module.exports = function(lmv) {
 
     var router = express.Router();
 
@@ -27,10 +27,15 @@ module.exports = function(viewAndDataClient) {
     ///////////////////////////////////////////////////////////////////////////////
     router.get('/', function (req, res) {
 
-        var response = viewAndDataClient.getTokenResponse();
+        lmv.getToken().then(function(token){
 
-        res.status((response ? 200 : 404));
-        res.json(response);
+            res.json(token);
+        },
+          function(err){
+
+              res.status(400);
+              res.json(err);
+        });
     });
 
     return router;

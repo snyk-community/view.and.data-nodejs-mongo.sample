@@ -334,42 +334,85 @@ Autodesk.ADN.Viewing.Extension.Chart = function (viewer, options) {
   // Get all leaf components
   //
   ///////////////////////////////////////////////////////////////////////////
-  function getAllLeafComponents (callback) {
+  ///////////////////////////////////////////////////////////////////
+  // Recursively builds the model tree
+  //
+  ///////////////////////////////////////////////////////////////////
+  function buildModelTree(model){
 
-      function getLeafComponentsRec(parent) {
+    //builds model tree recursively
+    function _buildModelTreeRec(node){
 
-        var components = [];
+      instanceTree.enumNodeChildren(node.dbId,
+        function(childId) {
 
-        if (typeof parent.children !== "undefined") {
+          node.children = node.children || [];
 
-          var children = parent.children;
+          var childNode = {
+            dbId: childId,
+            name: instanceTree.getNodeName(childId)
+          }
 
-          for (var i = 0; i < children.length; i++) {
+          node.children.push(childNode);
 
-            var child = children[i];
+          _buildModelTreeRec(childNode);
+        });
+    }
 
-            if (typeof child.children !== "undefined") {
+    //get model instance tree and root component
+    var instanceTree = model.getData().instanceTree;
 
-              var subComps = getLeafComponentsRec(child);
+    var rootId = instanceTree.getRootId();
 
-              components.push.apply(components, subComps);
-            }
-            else {
-              components.push(child);
-            }
+    var rootNode = {
+      dbId: rootId,
+      name: instanceTree.getNodeName(rootId)
+    }
+
+    _buildModelTreeRec(rootNode);
+
+    return rootNode;
+  }
+
+  ///////////////////////////////////////////////////////////////////////////
+  // Get all leaf components
+  //
+  ///////////////////////////////////////////////////////////////////////////
+  function getAllLeafComponents(callback) {
+
+    function getLeafComponentsRec(parent) {
+
+      var components = [];
+
+      if (typeof parent.children !== "undefined") {
+
+        var children = parent.children;
+
+        for (var i = 0; i < children.length; i++) {
+
+          var child = children[i];
+
+          if (typeof child.children !== "undefined") {
+
+            var subComps = getLeafComponentsRec(child);
+
+            components.push.apply(components, subComps);
+          }
+          else {
+            components.push(child);
           }
         }
-
-        return components;
       }
 
-      viewer.getObjectTree(function (result) {
+      return components;
+    }
 
-        var allLeafComponents = getLeafComponentsRec(result.root);
+    var root = buildModelTree(viewer.model);
 
-        callback(allLeafComponents);
-      });
-    };
+    var allLeafComponents = getLeafComponentsRec(root);
+
+    callback(allLeafComponents);
+  }
 
   ///////////////////////////////////////////////////////////////////////////
   // Get property value from display name

@@ -21,7 +21,6 @@
     "bootstrap":              "3.3.2",
     "bootstrap-select":       "1.6.4",
     "bootstrap-social":       "4.9.0",
-    "g.raphael":               "*",
     "lodash":                 "3.8.0",
     "raphael":                "2.1.4",
     "requirejs":              "2.1.17",

@@ -1,21 +1,25 @@
-/**
- * Created by leefsmp on 2/19/15.
- */
 
-//This sample is using a sample mongodb hosted on mongolab.com
-//You can change to your own mongo database
+var cloud = {
 
-var mongo = {
+  user: process.env.DB_USER,
+  pass: process.env.DB_PWD,
+  dbhost: process.env.DB_HOST,
+  port: process.env.DB_PORT,
+  db: process.env.DB_NAME,
+  materials: 'mongo.materials',
+  models: 'mongo.models'
+}
+
+var local = {
 
   user: '',
   pass: '',
   dbhost: 'localhost',
   port: 27017,
   db:   'mongo-stg',
-  host: '/node/mongo',
   materials: 'mongo.materials',
   models: 'mongo.models'
 }
 
-module.exports = mongo;
+module.exports = cloud;
 
