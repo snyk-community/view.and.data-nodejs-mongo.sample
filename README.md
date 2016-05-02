@@ -29,7 +29,8 @@ That sample demonstrates how to integrate MongoDb with the Autodesk View & Data 
 
 [http://mongo.autodesk.io](http://mongo.autodesk.io)
 
-[![](www/resources/img/app.png)](http://mongo.autodesk.io)
+[![](www/resources/img/app1.png)](http://mongo.autodesk.io)
+[![](www/resources/img/app2.png)](http://mongo.autodesk.io)
 
 ## License
 
