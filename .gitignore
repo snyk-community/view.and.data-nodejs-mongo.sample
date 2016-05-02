@@ -2,5 +2,7 @@ www/lib/bower_components
 node_modules/
 www/build
 heroku.config.sh
+.idea/
+
 
 

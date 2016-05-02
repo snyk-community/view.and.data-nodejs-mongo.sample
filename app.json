@@ -3,5 +3,32 @@
   "description": "Fullstack integration sample with node.js, mongoDB and View & Data API",
   "repository": "https://github.com/Developer-Autodesk/integration-mongo-view.and.data.api",
   "logo": "http://viewer.autodesk.io/node/gallery/img/favicon.png",
-  "keywords": ["node", "express", "mongoDB", "view&data"]
+  "keywords": ["node", "express", "mongoDB", "view&data"],
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment, defaulted to production",
+      "value": "production"
+    },
+    "DB_USER": {
+      "description": "mongoDB database User"
+    },
+    "DB_PWD": {
+      "description": "mongoDB database Password"
+    },
+    "DB_PORT": {
+      "description": "mongoDB database Port"
+    },
+    "DB_HOST": {
+      "description": "mongoDB database Host"
+    },
+    "DB_NAME": {
+      "description": "mongoDB database Name"
+    },
+    "LMV_CONSUMERKEY": {
+      "description": "View & Data API CONSUMERKEY"
+    },
+    "LMV_CONSUMERSECRET": {
+      "description": "View & Data API CONSUMERSECRET"
+    }
+  }
 }
