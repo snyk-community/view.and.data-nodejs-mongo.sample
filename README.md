@@ -18,9 +18,11 @@ That sample demonstrates how to integrate MongoDb with the Autodesk View & Data 
 * Run the server: "node server.js" from command line
 * Connect to server locally using a WebGL-compatible browser: http://localhost:3000/node/mongo.
 
-## Online demo
+## Live demo
 
-See the live demo at: [http://mongo.autodesk.io](http://mongo.autodesk.io)
+[http://mongo.autodesk.io](http://mongo.autodesk.io)
+
+[![](www/resources/img/app.png)](http://mongo.autodesk.io)
 
 ## License
 
