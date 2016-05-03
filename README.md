@@ -36,6 +36,10 @@ That sample demonstrates how to integrate MongoDb with the Autodesk View & Data 
 
 That samples are licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT). Please see the [LICENSE](LICENSE) file for full details.
 
+## Deploy to Heroku
+
+Click the button below to easily deploy that sample on Heroku (requires an Heroku account)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ##Written by 
