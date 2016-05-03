@@ -14,16 +14,31 @@ That sample demonstrates how to integrate MongoDb with the Autodesk View & Data 
 ##Setup/Usage Instructions
 
 * Install Node.js
-* Run "npm install" command from the server directory
-* Replace the place holder with your own credentials in credentials.js. You need to request credentials at our [developer portal](https://developer.autodesk.com/user/me/apps)
-* To work as-is with the sample, you will need a model with components having a property named "ProductId", you can use the seat.dwf model from data folder
-* Upload a model using instructions from the [API documentation](http://developer.api.autodesk.com/documentation/v1/vs/vs_quick_start.html#vs-api-quick-start)
-* Alternatively you can use one of our tools, for example: [LMV Quick Start Guide](https://fast-shelf-9177.herokuapp.com/)
-* Once you have translated successfully your model, place its URN in config-client.js
-* This sample is using a sample mongodb hosted on [mongolab](https://mongolab.com/) which matches the model seat.dwf. [Mongolab](https://mongolab.com/) provides a free tier.
-* You need to change to your own mongo database if you are using different models. Go to config-server.js, replace the access information of your mongoDb, you will need to be able to connect to a mongodb database, populated with products matching the "ProductId" of your model. The required fields on a product are: {ProductId, Name, SuplierName, Description, Currency, Price}
+
+* Run "npm install" command from the root directory
+* You need to request API credentials at our [developer portal](https://developer.autodesk.com/user/me/apps)
+
+* You also need credentials to access a mongoDB database or run one instance locally. This demo is using a mongoDB hosted on [mongolab](https://mongolab.com/) which provides a free tier.
+
+* The following environment variables are used by that sample:
+
+      DB_USER: mongoDB database User
+      DB_PWD: mongoDB database Password
+      DB_PORT: mongoDB database Port
+      DB_HOST: mongoDB database Host
+      DB_NAME: mongoDB database Name
+  
+      LMV_CONSUMERKEY: View & Data API CONSUMERKEY
+      LMV_CONSUMERSECRET: View & Data API CONSUMERSECRET
+
+* You will need a model with components having a property named "Material", you can use the seat.dwf model from data folder for testing.
+* Upload your model using instructions from the [API documentation](http://developer.api.autodesk.com/documentation/v1/vs/vs_quick_start.html#vs-api-quick-start)
+* Alternatively you can use one of our tools, for example:
+  [http://models.autodesk.io](http://models.autodesk.io)
+
 * Run the server: "node server.js" from command line
-* Connect to server locally using a WebGL-compatible browser: http://localhost:3000/node/mongo.
+* If you run the sample locally open this url in your browser:   
+ http://localhost:3000
 
 ## Live demo
 
