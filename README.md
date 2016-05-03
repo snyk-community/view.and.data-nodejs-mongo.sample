@@ -38,7 +38,7 @@ That sample demonstrates how to integrate MongoDb with the Autodesk View & Data 
 
 * Run the server: "node server.js" from command line
 * If you run the sample locally open this url in your browser:   
- http://localhost:3000
+ [http://localhost:3000](http://localhost:3000)
 
 ## Live demo
 
