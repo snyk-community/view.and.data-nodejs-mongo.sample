@@ -22,14 +22,14 @@ That sample demonstrates how to integrate MongoDb with the Autodesk View & Data 
 
 * The following environment variables are used by that sample:
 
-      DB_USER: mongoDB database User
-      DB_PWD: mongoDB database Password
-      DB_PORT: mongoDB database Port
-      DB_HOST: mongoDB database Host
-      DB_NAME: mongoDB database Name
-  
-      LMV_CONSUMERKEY: View & Data API CONSUMERKEY
-      LMV_CONSUMERSECRET: View & Data API CONSUMERSECRET
+        DB_USER: mongoDB database User
+        DB_PWD: mongoDB database Password
+        DB_PORT: mongoDB database Port
+        DB_HOST: mongoDB database Host
+        DB_NAME: mongoDB database Name
+    
+        LMV_CONSUMERKEY: View & Data API CONSUMERKEY
+        LMV_CONSUMERSECRET: View & Data API CONSUMERSECRET
 
 * You will need a model with components having a property named "Material", you can use the seat.dwf model from data folder for testing.
 * Upload your model using instructions from the [API documentation](http://developer.api.autodesk.com/documentation/v1/vs/vs_quick_start.html#vs-api-quick-start)
