@@ -1,22 +1,22 @@
-#Autodesk view and data API MongoDb Integration Sample
+#Viewer and MongoDb Integration Sample
 
 ##Description
 
 [![build status](https://api.travis-ci.org/cyrillef/extract-view.and.data.api.png)](https://travis-ci.org/cyrillef/extract-view.and.data.api)
 [![Node.js](https://img.shields.io/badge/Node.js-5.10.1-blue.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-3.8.3-blue.svg)](https://www.npmjs.com/)
-[![LMV](https://img.shields.io/badge/View%20%26%20Data%20API-v2.5-green.svg)](http://developer-autodesk.github.io/)
+[![Viewer](https://img.shields.io/badge/Viewer-v2.5-green.svg)](https://developer.autodesk.com/api/view-and-data-api/)
 ![Platforms](https://img.shields.io/badge/platform-windows%20%7C%20osx%20%7C%20linux-lightgray.svg)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)
 
-That sample demonstrates how to integrate MongoDb with the Autodesk View & Data API using a Node.js server and a AngularJs-based client
+That sample demonstrates how to integrate MongoDb with the Forge Viewer using a Node.js server and a AngularJs-based client
 
 ##Setup/Usage Instructions
 
-* Install Node.js
+* Install [Node.js](https://nodejs.org)
 
 * Run "npm install" command from the root directory
-* You need to request API credentials at our [developer portal](https://developer.autodesk.com/user/me/apps)
+* You need to request API credentials at [Forge Platform](https://developer.autodesk.com/user/me/apps)
 
 * You also need credentials to access a mongoDB database or run one instance locally. This demo is using a mongoDB hosted on [mongolab](https://mongolab.com/) which provides a free tier.
 
@@ -59,5 +59,5 @@ Click the button below to easily deploy that sample on Heroku (requires an Herok
 
 ##Written by 
 
-Written by [Philippe Leefsma](http://adndevblog.typepad.com/cloud_and_mobile/philippe-leefsma.html)
+Written by [Philippe Leefsma](http://adndevblog.typepad.com/cloud_and_mobile/philippe-leefsma.html) (Forge Partner Development)
 
