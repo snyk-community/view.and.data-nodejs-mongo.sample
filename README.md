@@ -2,7 +2,6 @@
 
 ##Description
 
-[![build status](https://api.travis-ci.org/cyrillef/extract-view.and.data.api.png)](https://travis-ci.org/cyrillef/extract-view.and.data.api)
 [![Node.js](https://img.shields.io/badge/Node.js-5.10.1-blue.svg)](https://nodejs.org/)
 [![npm](https://img.shields.io/badge/npm-3.8.3-blue.svg)](https://www.npmjs.com/)
 [![Viewer](https://img.shields.io/badge/Viewer-v2.5-green.svg)](https://developer.autodesk.com/api/view-and-data-api/)
@@ -32,7 +31,7 @@ That sample demonstrates how to integrate MongoDb with the Forge Viewer using a 
         LMV_CONSUMERSECRET: View & Data API CONSUMERSECRET
 
 * You will need a model with components having a property named "Material", you can use the seat.dwf model from data folder for testing.
-* Upload your model using instructions from the [API documentation](http://developer.api.autodesk.com/documentation/v1/vs/vs_quick_start.html#vs-api-quick-start)
+* Upload your model using instructions from the [API documentation](https://developer.autodesk.com/en/docs/model-derivative/v2/tutorials/prepare-file-for-viewer/)
 * Alternatively you can use one of our tools, for example:
   [http://models.autodesk.io](http://models.autodesk.io)
 
