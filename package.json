@@ -34,7 +34,7 @@
     "gulp-bower":           "0.0.10",
     "gulp-babel":           "5.1.0",
     "mongodb":              "2.0.28",
-    "request":              "2.55.0",
+    "request":              "2.74.0",
     "serve-favicon":        "2.2.0",
     "webpack":              "1.8.11",
     "vinyl-paths":          "1.0.0",
